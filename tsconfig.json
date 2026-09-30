@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext",
+    "rootDir": "root",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "lib": ["ES2022"],
+    "ignoreDeprecations": "6.0"
+  },
+  "include": [
+  "***t/src/**/*",
+  "root/tests/**/*",
+  "***t/global-teardown.ts"
+]
+}
